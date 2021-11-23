@@ -5,7 +5,7 @@ title: desk clutter
 <p>A selection of items on my desk at the time of this code test (and in general, really), featuring loving MSpaint renderings.</p>
 
 {%for deskclutter in site.deskclutter%}<hr/><article>
-	<h3>{{deskclutter.title}}</h3>
+	<h3><a href="{{deskclutter.url}}">{{deskclutter.title}}</a></h3>
 	<img src="{{deskclutter.image}}" alt=""/>
 	<p>age of thing: {{deskclutter.age}}</p>
 	<p>{{deskclutter.content}}</p>

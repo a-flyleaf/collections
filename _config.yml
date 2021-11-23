@@ -57,3 +57,4 @@ plugins:
 # tutorial-following
 collections:
     deskclutter:
+        output: true
