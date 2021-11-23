@@ -1,0 +1,13 @@
+---
+layout: page
+title: writingdocs
+---
+<p>Story Development Is My Passion</p>
+
+<p>Made to test <a href="https://cloudcannon.com/community/learn/jekyll-tutorial/introduction-to-jekyll-data-files/#data-use-case-1-location-map">data</a>. Huh, seems like the <code>var</code> in <code>for var in site.data.file</code> can be anything?</p>
+
+{%for doc in site.data.writingdocs%}<ul>
+	<li><b>notebook #{{doc.order}}</b></li>
+	<li>{{doc.range}}</li>
+	<li>{{doc.pages}} pages / {{doc.words}} words</li>
+</ul>{%endfor%}
