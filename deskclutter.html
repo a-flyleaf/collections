@@ -1,8 +1,10 @@
 ---
 layout: page
-title: desk clutter
+title: deskclutter
 ---
 <p>A selection of items on my desk at the time of this code test (and in general, really), featuring loving MSpaint renderings.</p>
+
+<p>Made to test <a href="https://cloudcannon.com/community/learn/jekyll-tutorial/introduction-to-jekyll-collections/">collections</a>. Note that the <code>for data in data.var</code> format is used for a "gallery" like this, and the actual pages use ``page.var``.</p>
 
 {%for deskclutter in site.deskclutter%}<hr/><article>
 	<h3><a href="{{deskclutter.url}}">{{deskclutter.title}}</a></h3>
