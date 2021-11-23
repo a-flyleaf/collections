@@ -1,7 +1,7 @@
 ---
 layout: deskclutter
 title: water bottle(s)
-image: /images/water.jpg
+image: /images/waterbottle.png
 age: fresh, hopefully
 ---
 ## Description

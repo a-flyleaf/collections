@@ -1,7 +1,7 @@
 ---
 layout: deskclutter
 title: WP5540 Digipro Tablet
-image: /images/tablet.jpg
+image: /images/tablet.png
 age: since 2012
 ---
 ## Description
