@@ -60,3 +60,4 @@ collections:
         output: true
     comicke:
         output: true
+        sort_by: order

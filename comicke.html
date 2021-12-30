@@ -1,0 +1,9 @@
+---
+layout: page
+title: comicke
+---
+<p>Basic webcomic-generation test: can I make Jekyll auto-create each page via collections? Sources say yes.</p>
+
+<p>Added <code>order</code> front matter to sort the cover last despite having the url <code>00</code>.</p>
+
+{%for comicke in site.comicke%}<img src="{{siteurl}}/images/comicke/{{comicke.pagecount}}.png" alt="{{comicke.pagecount}}"/>{%endfor%}
