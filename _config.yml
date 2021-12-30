@@ -58,3 +58,5 @@ plugins:
 collections:
     deskclutter:
         output: true
+    comicke:
+        output: true
