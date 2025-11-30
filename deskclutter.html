@@ -8,7 +8,7 @@ title: deskclutter
 
 {%for deskclutter in site.deskclutter%}<hr/><article>
 	<h3><a href="{{deskclutter.url}}">{{deskclutter.title}}</a></h3>
-	<img src="{{deskclutter.image}}" alt=""/>
+	<img src="{{deskclutter.image|remove_first:"/"}}" alt=""/>
 	<p>age of thing: {{deskclutter.age}}</p>
 	<p>{{deskclutter.content}}</p>
 </article>{%endfor%}
